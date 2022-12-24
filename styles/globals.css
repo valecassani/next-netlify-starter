@@ -15,7 +15,7 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -32,4 +32,16 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: 'public/background.jpg'
+}
+
+.textContainer {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+a {
+  color: white;
 }
